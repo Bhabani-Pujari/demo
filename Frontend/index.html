@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HealthTrack Clinic</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+<!-- Navbar -->
+<nav class="bg-white shadow p-4 flex justify-between items-center">
+    <a href="index.html" class="font-bold text-xl text-blue-600">HealthTrack</a>
+    <div class="space-x-4">
+        <a href="login.html" id="loginBtn" class="text-gray-700 hover:text-blue-600">Login</a>
+        <a href="register.html" id="registerBtn" class="text-gray-700 hover:text-blue-600">Register</a>
+        <a href="index.html" id="logoutBtn" class="hidden text-gray-700 hover:text-blue-600">Logout</a>
+        <a href="doctors.html" id="viewDoctors" class="hidden text-gray-700 hover:text-blue-600">View Doctors</a>
+        <a href="admin/dashboard.html" id="adminNav" class="hidden text-gray-700 hover:text-blue-600">Admin Dashboard</a>
+    </div>
+</nav>
+
+<!-- Hero -->
+<section class="text-center mt-20">
+    <h1 class="text-4xl font-bold text-gray-800 mb-4">Welcome to HealthTrack Clinic</h1>
+    <p class="text-gray-600 mb-6">Book appointments with top doctors in your city, manage schedules, and more.</p>
+    <a href="doctors.html" id="heroDoctorsBtn" class="hidden bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">View Doctors</a>
+</section>
+
+<script src="assets/script.js"></script>
+</body>
+</html>

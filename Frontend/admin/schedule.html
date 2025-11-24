@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Set Doctor Schedule - HealthTrack</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-8">
+
+<h1 class="text-3xl font-bold mb-6">Set Doctor Schedule</h1>
+
+<form id="addScheduleForm" class="bg-white p-6 rounded shadow w-full max-w-md">
+    <label class="block mb-2">Doctor ID</label>
+    <input type="number" id="doctor_id" class="w-full p-2 mb-4 border rounded" required>
+
+    <label class="block mb-2">Day</label>
+    <select id="day" class="w-full p-2 mb-4 border rounded" required>
+        <option value="">Select day</option>
+        <option value="MONDAY">Monday</option>
+        <option value="TUESDAY">Tuesday</option>
+        <option value="WEDNESDAY">Wednesday</option>
+        <option value="THURSDAY">Thursday</option>
+        <option value="FRIDAY">Friday</option>
+        <option value="SATURDAY">Saturday</option>
+        <option value="SUNDAY">Sunday</option>
+    </select>
+
+    <label class="block mb-2">Start Time</label>
+    <input type="time" id="start_time" class="w-full p-2 mb-4 border rounded" required>
+
+    <label class="block mb-2">End Time</label>
+    <input type="time" id="end_time" class="w-full p-2 mb-4 border rounded" required>
+
+    <button type="submit" class="bg-green-600 text-white py-2 px-4 rounded hover:bg-green-700">Add Schedule</button>
+</form>
+
+<script src="../assets/script.js"></script>
+</body>
+</html>
+
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Set Doctor Schedule - HealthTrack</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-8">
+
+<h1 class="text-3xl font-bold mb-6">Set Doctor Schedule</h1>
+
+<form id="addScheduleForm" class="bg-white p-6 rounded shadow w-full max-w-md">
+    <label class="block mb-2">Doctor ID</label>
+    <input type="number" id="doctor_id" class="w-full p-2 mb-4 border rounded" required>
+
+    <label class="block mb-2">Day</label>
+    <select id="day" class="w-full p-2 mb-4 border rounded" required>
+        <option value="">Select a day</option>
+        <option value="0">Monday</option>
+        <option value="1">Tuesday</option>
+        <option value="2">Wednesday</option>
+        <option value="3">Thursday</option>
+        <option value="4">Friday</option>
+        <option value="5">Saturday</option>
+        <option value="6">Sunday</option>
+    </select>
+
+    <label class="block mb-2">Start Time</label>
+    <input type="time" id="start_time" class="w-full p-2 mb-4 border rounded" required>
+
+    <label class="block mb-2">End Time</label>
+    <input type="time" id="end_time" class="w-full p-2 mb-4 border rounded" required>
+
+    <button type="submit" class="bg-green-600 text-white py-2 px-4 rounded hover:bg-green-700">Add Schedule</button>
+</form>
+
+<script src="../assets/script.js"></script>
+</body>
+</html>
+ -->
